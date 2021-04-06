@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnFavBaby",
-  "left": 101,
+  "left": 102,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 200,
-  "value": "Button",
+  "top": 154,
+  "value": "Final Pick",
   "width": "auto"
 }
