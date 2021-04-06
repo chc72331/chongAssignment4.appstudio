@@ -25,7 +25,34 @@
         "forms",
         "deleteCustomer",
         "Elements",
-        "lgCustomer.json"
+        "btnDelCustomer.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "deleteCustomer",
+        "Elements",
+        "btnRefresh.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "deleteCustomer",
+        "Elements",
+        "selCustomer.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "deleteCustomer",
+        "Elements",
+        "btnCustomer.json"
       ]
     }
   ],
