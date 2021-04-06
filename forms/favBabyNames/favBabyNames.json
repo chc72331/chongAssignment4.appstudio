@@ -16,7 +16,7 @@
         "forms",
         "favBabyNames",
         "Elements",
-        "Select1.json"
+        "selFavorite.json"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "forms",
         "favBabyNames",
         "Elements",
-        "Button1.json"
+        "btnFavBaby.json"
       ]
     }
   ],
