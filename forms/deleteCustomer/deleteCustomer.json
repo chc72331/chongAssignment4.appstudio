@@ -45,15 +45,6 @@
         "Elements",
         "selCustomer.json"
       ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "deleteCustomer",
-        "Elements",
-        "btnCustomer.json"
-      ]
     }
   ],
   "class": "",
