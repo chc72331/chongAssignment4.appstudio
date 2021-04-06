@@ -3,6 +3,6 @@ favBabyNames.onshow = function() {
     selFavorite.addItem(favoriteBabyNames[i])
 }
 
-btnFavorite.onclick = function() {
+btnFavBaby.onclick = function() {
   lblFavBaby.value = `Your favorite baby name is ${selFavorite.value}.`
 }
