@@ -36,6 +36,15 @@
         "Elements",
         "btnFavBabyPg.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "babyNames",
+        "Elements",
+        "lblBabyName.json"
+      ]
     }
   ],
   "class": "",
