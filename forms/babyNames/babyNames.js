@@ -1,12 +1,12 @@
 // I've added my own kids' names: Miles, Vincent, and Natalie into the list
 
-let topBabyNames = ["Miles", "Olivia", "Noah", "Emma",
-  "Oliver", "Ava", "William", "Sophia",
-  "Vincent", "Isabella", "James",
-  "Charlotte", "Benjamin", "Natalie",
-  "Lucas", "Mia", "Mason", "Harper",
-  "Ethan", "Evelyn"
-]
+let topBabyNames = ["Natalie", "Miles", "Vincent", "Emma",
+                    "Oliver", "Ava", "William", "Sophia",
+                    "Olivia", "Isabella", "James",
+                    "Charlotte", "Benjamin", "Aiden",
+                    "Lucas", "Mia", "Mason", "Harper",
+                    "Ethan", "Evelyn"]
+                    
 let favoriteBabyNames = []
 
 babyNames.onshow = function() {
@@ -15,8 +15,13 @@ babyNames.onshow = function() {
 }
 
 btnAddBaby.onclick = function() {
-  favoriteBabyNames.push(selBabyNames.value)
-  console.log(favoriteBabyNames)
+  if (favoriteBabyNames.length >= 5)
+    lblBabyName = 'You can only add 5 names!'
+  else {
+    favoriteBabyNames.push(selBabyNames.value)
+    console.log(favoriteBabyNames)
+    lblBabyName = `${selBabyNames.value} has been added!`
+  }
 }
 
 btnFavBabyPg.onclick = function() {
