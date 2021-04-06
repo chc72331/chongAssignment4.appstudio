@@ -11,17 +11,19 @@ let favoriteBabyNames = []
 
 babyNames.onshow = function() {
   for (i = 0; i < topBabyNames.length; i++)
-    selBabyNames.addItem(topBabyNames[i])
+    drpBabyNames.addItem(topBabyNames[i])
 }
 
-btnAddBaby.onclick = function() {
-  if (favoriteBabyNames.length >= 5)
-    lblBabyName = 'You can only add 5 names!'
-  else {
-    favoriteBabyNames.push(selBabyNames.value)
-    console.log(favoriteBabyNames)
-    lblBabyName = `${selBabyNames.value} has been added!`
-  }
+drpBabyNames.onclick = function(s) {
+  if (typeof(s) == "object")
+        return
+      else {
+        for (i = 0; i < 5; i++)
+          favoriteBabyNames.push(s)
+          if (favoriteBabyNames.length == 5) {
+            lblBabyName.value = "You can only add 5 names!"
+          }
+    }
 }
 
 btnFavBabyPg.onclick = function() {
