@@ -17,7 +17,7 @@
   "fontStyle": "",
   "fontWeight": "",
   "footer": "",
-  "header": "Select",
+  "header": "Pick a Customer to Delete",
   "headerCols": 2,
   "height": "auto",
   "hidden": "",
@@ -25,7 +25,7 @@
   "iconTitle": "",
   "id": "selCustomer",
   "inputmode": "",
-  "items": "Item 1\nItem 2\n*Item 3 (disabled)\n>Item 4",
+  "items": "",
   "left": 39,
   "mAll": "",
   "mBottom": "",
@@ -70,5 +70,5 @@
   "value": "",
   "valueCols": 10,
   "values": "101\n102\n103\n104",
-  "width": "auto"
+  "width": 233
 }
