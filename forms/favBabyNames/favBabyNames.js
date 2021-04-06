@@ -1,0 +1,8 @@
+favBabyNames.onshow = function() {
+  for (i = 0; i < favoriteBabyNames.length; i++)
+    selFavorite.addItem(favoriteBabyNames[i])
+}
+
+btnFavorite.onclick = function() {
+  lblFavBaby.value = `Your favorite baby name is ${selFavorite.value}.`
+}
