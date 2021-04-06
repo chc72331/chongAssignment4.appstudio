@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnAddBaby",
-  "left": 131,
+  "left": 106,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 188,
-  "value": "Button",
+  "top": 183,
+  "value": "Add Name",
   "width": "auto"
 }
