@@ -16,24 +16,6 @@
         "forms",
         "babyNames",
         "Elements",
-        "selBabyNames.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "babyNames",
-        "Elements",
-        "btnAddBaby.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "babyNames",
-        "Elements",
         "btnFavBabyPg.json"
       ]
     },
@@ -44,6 +26,24 @@
         "babyNames",
         "Elements",
         "lblBabyName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "babyNames",
+        "Elements",
+        "drpBabyNames.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "babyNames",
+        "Elements",
+        "lblInstructions.json"
       ]
     }
   ],
