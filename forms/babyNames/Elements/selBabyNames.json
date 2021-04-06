@@ -17,7 +17,7 @@
   "fontStyle": "",
   "fontWeight": "",
   "footer": "",
-  "header": "Select",
+  "header": "Pick Your Top 5 Names",
   "headerCols": 2,
   "height": "auto",
   "hidden": "",
@@ -25,8 +25,8 @@
   "iconTitle": "",
   "id": "selBabyNames",
   "inputmode": "",
-  "items": "Item 1\nItem 2\n*Item 3 (disabled)\n>Item 4",
-  "left": 34,
+  "items": "",
+  "left": 28,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -65,10 +65,10 @@
   "script": "",
   "size": "",
   "style": "",
-  "top": 57,
+  "top": 58,
   "validation": "",
   "value": "",
   "valueCols": 10,
   "values": "101\n102\n103\n104",
-  "width": "auto"
+  "width": 257
 }
