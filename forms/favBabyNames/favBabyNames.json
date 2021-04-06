@@ -36,6 +36,15 @@
         "Elements",
         "btnFavBaby.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "favBabyNames",
+        "Elements",
+        "Image1.json"
+      ]
     }
   ],
   "class": "",
